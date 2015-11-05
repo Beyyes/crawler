@@ -125,6 +125,6 @@ def get_allfollers(user_url):
 if __name__ == '__main__':
     # print '23333'
     create_cookies()
-    urls = get_allfollers('http://www.zhihu.com/people/yester-fei/followers')
+    urls = get_allfollers('xxxxxxx')
     post_message(urls)
 
